@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    background: #b04951;
+     font-family: Arial, sans-serif; 
+}
+
+.container {
+    text-align: center;
+}
+
+.title {
+    margin-top: 50px;
+    color: white;
+    font-size: 40px;
+}
+
+.reset {
+    width: 100px;
+    height: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 8px;
+    background-color: #285e79;
+    font-size: 18px;
+    color: white;
+    position: absolute; 
+    top: 10px; 
+    right: 10px; 
+}
+
+
+.boxes {
+    display: flex;
+    height: 100px; 
+    width: 100px; 
+    background: #1f3540;
+    border: 2px solid #0f1b21;
+    border-radius: 8px; 
+    cursor: pointer;
+}
+
+.board {
+    height: 300px;
+    width: 300px; 
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-gap: 10px; 
+    margin: auto;
+}
+
+.message {
+    font-size: 24px;
+    color: white;
+    margin: 20px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
